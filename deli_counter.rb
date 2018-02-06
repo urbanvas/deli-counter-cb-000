@@ -10,8 +10,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
-
+def take_a_number(katz_deli, name)
     katz_deli << name
-    puts "Welcome, #{name}. You are number #{array.size + 1} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
